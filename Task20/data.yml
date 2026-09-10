@@ -1,0 +1,6 @@
+path: C:\Users\krkmz\Desktop\Aware Robotics Opencv\Task20\dataset
+train: images\train
+val: images\val
+
+nc: 1
+names: ['asfalt_yol']

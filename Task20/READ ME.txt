@@ -1,0 +1,10 @@
+F1-Confidince Curves hassasiyet ve duyarlılık dengesini dengesini gösterir tepe noktası 1.0'a ne kadar yakınsa modelin o kadar dengeli olduğunu anlayabiliyoruz kendi eğittiğim veri setinde çizgilerden birinin en fazla 0.1 seviyelerine çıkabildiğini diğer çizginin ise  0.025 seviyeleri görmesi modeldeki veri azlığından da ötürü yeterli güven değerine sahip olmadığını gösteriyor
+
+MaskPR_curve'de grafiğin altındaki alan ne kadar büyükse segmentasyon başarısı o kadar büyüktür fakat elimizdeki veri setindeki eğitilmiş veri sayımızın azlığından ötürü çokta büyük olmayan bir alana sahiptir.
+
+BoxP_curve ve BoxR_curve güven eşiklerin hassasiyet ve duyarlılık değerlerinin nasıl değiştiğini gösterir. İkisinde de daha düşük değerlerde daha yüksek güven değeri vardır fakat değerler büyüdükçe güven eşiği küçülmüştür
+
+results.png altındaki 
+box_loos sınırlayıcı kutu hatasıdır. train dosyasındaki eğitme setimizdeki yapılan seçimlerden dolayı ortaya böyle bir grafik çıkmıştır.
+seg_loss poligon maskesinin asfalt sınırlarının kaplama hatasının grafiğidir. Bu grafiğe bakılarak hata payının oldukça düşük olduğu görülebilmektedir.
+cls_loss veri setimizdeki sınıflandırma hatalarıdır. İki grafikte de aslında sınıflandırma hatasının nerdeyse 0 olduğunu rahatlıkla görebiliyoruz. 

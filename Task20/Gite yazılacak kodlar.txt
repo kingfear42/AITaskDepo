@@ -1,0 +1,3 @@
+cd C:\Users\krkmz\Desktop\Aware Robotics Opencv\Task20\yolov5-master
+
+python segment/predict.py --weights runs/train-seg/exp9/weights/best.pt --source "C:\Users\krkmz\Desktop\Aware Robotics Opencv\Task20\deneme_resimleri" --img 640 --conf-thres 0.06
